@@ -1,0 +1,139 @@
+/** {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}*/
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.navbar,
+.site-footer {
+  background-color: #4c7c63;
+}
+
+.jumbotron-image {
+  background: url(/img/place/home-banner.jpg) no-repeat;
+  background-size: cover;
+}
+.jumbotron-image div {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.rose-box {
+  background-color: #dcada3;
+  padding: 1.2rem;
+}
+.green-box {
+  background-color: #ded599;
+}
+.light-grey-box {
+  background-color: #e2dcd9;
+}
+
+.row-content {
+  margin-bottom: 50px;
+}
+.sweet-box {
+  background-color: #ded599;
+}
+
+footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 20px;
+}
+
+.site-footer ul {
+  list-style: none;
+}
+.site-footer ul li a,
+ul li {
+  color: #e2dcd9;
+}
+
+.navbar-brand {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/*
+.carousel-inner > .carousel-item > img {
+  width: auto;
+  max-height: 600px;
+}*/
+
+.carousel-inner > .carousel-item > .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 100px;
+}
+
+.carousel-inner > .carousel-item > .carousel-caption > div {
+  text-align: left;
+  list-style: none;
+  padding-left: 20px;
+}
+
+/* about us */
+.our-mission-card {
+  margin-top: 50px;
+}
+.our-team-cards {
+  padding: 10px;
+  margin: auto;
+  border: 1px dotted gray;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  max-width: 700px;
+}
+.img-team {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
+.img-profile-team {
+  width: 200px;
+  border-radius: 50%;
+}
+.our-team-cards > div:nth-of-type(2) {
+  border: 1px dotted coral;
+  max-width: 450px;
+}
+
+/* catering */
+form {
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+/* menu */
+
+.menu-image-eat {
+  background: url(/img/food/menu-to-eat.jpg) no-repeat;
+  background-size: cover;
+}
+.menu-image-coffee {
+  background: url(/img/food/menu-coffee.jpg) no-repeat;
+  background-size: cover;
+}
+.menu-image-drink {
+  background: url(/img/food/menu-to-drink.jpg) no-repeat;
+  background-size: cover;
+}
+.menu-image-eat div,
+.menu-image-coffee div,
+.menu-image-drink div {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (width > 768px) {
+  .our-team-cards {
+    text-align: left;
+  }
+  .our-team-cards div > div:nth-of-type(2) {
+    border: 1px dotted coral;
+  }
+}
