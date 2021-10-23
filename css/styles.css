@@ -36,10 +36,30 @@ a:hover {
 .row-content {
   margin-bottom: 50px;
 }
-.sweet-box {
-  background-color: #ded599;
+
+/* Opinion cards */
+
+blockquote {
+  margin-top: 5px;
 }
 
+blockquote p {
+  padding: 15px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+blockquote p::before {
+  content: "\201C";
+}
+
+/* Coffee box*/
+.coffee-brand > img {
+  max-width: 200px;
+  margin: auto;
+}
+
+/* Footer */
 footer {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding-top: 20px;
@@ -49,7 +69,8 @@ footer {
   list-style: none;
 }
 .site-footer ul li a,
-ul li {
+ul li,
+h5 {
   color: #e2dcd9;
 }
 
@@ -59,27 +80,11 @@ ul li {
   font-weight: 600;
 }
 
-/*
-.carousel-inner > .carousel-item > img {
-  width: auto;
-  max-height: 600px;
-}*/
-
-.carousel-inner > .carousel-item > .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5);
-  margin-bottom: 100px;
-}
-
-.carousel-inner > .carousel-item > .carousel-caption > div {
-  text-align: left;
-  list-style: none;
-  padding-left: 20px;
+.main-card {
+  margin-top: 50px;
 }
 
 /* about us */
-.our-mission-card {
-  margin-top: 50px;
-}
 .our-team-cards {
   padding: 10px;
   margin: auto;
@@ -132,8 +137,5 @@ form {
 @media screen and (width > 768px) {
   .our-team-cards {
     text-align: left;
-  }
-  .our-team-cards div > div:nth-of-type(2) {
-    border: 1px dotted coral;
   }
 }
